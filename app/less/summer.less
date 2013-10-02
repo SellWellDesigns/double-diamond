@@ -1,0 +1,77 @@
+@import "common";
+
+@brand1: #23371b;
+@brand2: #000;
+@brand3: #e4d8c2;
+@brand4: #76b0d6;
+@brand5: #f8931d;
+@brand6: #58585a;
+
+@font-family-serif:       "Bree Serif", Georgia, "Times New Roman", Times, serif;
+@font-family-base:        @font-family-serif;
+@headings-font-family:    @font-family-base;
+
+@border-radius-base: 0;
+
+
+@navbar-default-color: #fff;
+
+@btn-default-color: #fff;
+@navbar-default-bg: @brand1;
+@navbar-default-border: @brand1;
+
+@navbar-default-link-color: #fff;
+@navbar-default-link-active-color: @brand3;
+@navbar-default-link-hover-color: @brand3;
+@navbar-default-link-active-bg: @brand1;
+
+@btn-primary-bg: @brand5;
+@btn-default-bg: @brand1;
+
+
+.navbar-nav {
+	li {
+		a {
+			border-right: 1px solid @brand3;
+		}
+	}
+}
+
+.carousel-control {
+	.icon-next, .icon-prev {
+		color: @brand5;
+	}
+}
+
+h2 {
+	color: @brand5;
+
+	small {
+		color: @brand1;
+		font-size: 100%;
+		font-weight: inherit;
+	}
+}
+
+.marketing-image {
+	background-image: url('../img/snowflake.png');
+	width: 131px;
+	height: 136px;
+	margin: 0 auto;
+}
+
+#hero-header {
+	background-image: url('../img/vail_bg.jpg');
+}
+
+#information {
+	background-color: @brand3;
+}
+
+#contact {
+	background-color: #fff;
+}
+
+#social-links a {
+	color: @brand3;
+}

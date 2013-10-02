@@ -5,17 +5,17 @@
 
 
 	
-	<section class="section brand2-bg">
+	<section id="hero-header" class="section brand2-bg">
 		<div class="container">
 
 			<div class="row">
 				<div class="col-lg-8 col-md-8">
-					<div id="carousel-example-generic" class="carousel slide">
+					<div id="carousel" class="carousel slide">
 						<!-- Indicators -->
 						<ol class="carousel-indicators">
-							<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-							<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-							<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+							<li data-target="#carousel" data-slide-to="0" class="active"></li>
+							<li data-target="#carousel" data-slide-to="1"></li>
+							<li data-target="#carousel" data-slide-to="2"></li>
 						</ol>
 
 						<!-- Wrapper for slides -->
@@ -41,10 +41,10 @@
 						</div>
 
 						<!-- Controls -->
-						<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+						<a class="left carousel-control" href="#carousel" data-slide="prev">
 							<span class="icon-prev"></span>
 						</a>
-						<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+						<a class="right carousel-control" href="#carousel" data-slide="next">
 							<span class="icon-next"></span>
 						</a>
 					</div>
@@ -56,13 +56,13 @@
 
 					<form>
 						<div class="form-group">
-							<input type="text" class="form-control" />
+							<input type="text" class="form-control" placeholder="Start Date" />
 						</div>
 						<div class="form-group">
-							<input type="text" class="form-control" />
+							<input type="text" class="form-control" placeholder="End Date" />
 						</div>
 						<div class="form-group">
-							<input type="submit" class="btn btn-default" />
+							<input type="submit" class="pull-right btn btn-default" value="Send It" />
 						</div>
 					</form>
 				</div>
@@ -77,7 +77,7 @@
 
 
 	
-	<section class="section brand1-bg brand2">
+	<section id="information" class="section brand1-bg brand2">
 
 		<div class="container">
 
@@ -137,14 +137,16 @@
 
 
 
-	<section class="section brand2-bg">
+	<section id="contact" class="section">
 
 		<div class="container">
 
 			<div class="row">
 				<div class="col-lg-6 col-md-6">
 					
-					<form action="" method="">
+					<h2>CONTACT<small>US</small></h2>
+
+					<form class="contact-form" action="" method="">
 						<fieldset>
 
 							<div class="row">
@@ -179,7 +181,7 @@
 
 				</div>
 				<div class="col-lg-6 col-md-6">
-					
+					<div id="map-canvas" class="hidden-sm"></div>
 				</div>
 			</div>
 
@@ -192,10 +194,11 @@
 
 
 
-	<section class="section brand3-bg brand4 text-center">
+	<section id="about" class="section brand3-bg brand6 text-center">
 		<div class="container">
 			<h1>About Double Diamond</h1>
-			<div class="logo-hr"></div>
+			
+			<img class="img-divider img-responsive" src="{{ asset('img/divider.png') }}" />
 
 			<p class="lead">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -214,68 +217,5 @@
 		</div>
 	</section>
 
-
-
-
-
-	<footer class="section brand1-bg brand2">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-2 col-md-2 text-center">
-					<i class="brand-patagonia"></i>
-				</div>
-				<div class="col-lg-2 col-md-2 text-center">
-					<i class="brand-north-face"></i>
-				</div>
-				<div class="col-lg-2 col-md-2 text-center">
-					<i class="brand-volkl"></i>
-				</div>
-				<div class="col-lg-2 col-md-2 text-center">
-					<i class="brand-k2"></i>
-				</div>
-				<div class="col-lg-2 col-md-2 text-center">
-					<i class="brand-nordica"></i>
-				</div>
-				<div class="col-lg-2 col-md-2 text-center">
-					<i class="brand-blizzard"></i>
-				</div>
-			</div>
-
-			<hr />
-
-			<p class="pull-left">
-				&copy; Double Diamond Vail
-			</p>
-
-			<ul class="pull-right list-inline">
-				<li>
-					<a href="#">
-						<i class="icon-facebook"></i>
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<i class="icon-twitter"></i>
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<i class="icon-linkedin"></i>
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<i class="icon-pinterest"></i>
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<i class="icon-youtube"></i>
-					</a>
-				</li>
-			</ul>
-
-		</div>
-	</footer>
 
 @stop

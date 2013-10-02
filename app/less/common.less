@@ -32,3 +32,126 @@
  |----------------------------------------------------------------
  */
 @import "bootstrap-overrides";
+
+/*
+ |----------------------------------------------------------------
+ | Custom Font
+ |----------------------------------------------------------------
+ */
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
+
+
+body {
+	background: @brand1;
+	padding-top: @navbar-height;
+}
+
+.navbar-brand {
+	position: relative;
+	
+	img {
+		position: absolute;
+		top: 0;
+	}
+}
+
+.navbar-nav {
+	li {
+		a {
+			padding-top: 0;
+			padding-bottom: 0;
+			margin-top: 15px;
+		}
+
+		&:last-child {
+			a {
+				border-right: none;
+			}
+		}
+	}
+}
+
+.section {
+	padding: 70px 0;
+}
+
+.carousel {
+	.box-shadow(1px 3px 7px fadeout(#000, 40%));
+}
+
+.carousel-control {
+	.icon-next, .icon-prev {
+		font-size: 50px;
+		margin-top: -25px;
+		margin-left: -25px;
+	}
+}
+
+#hero-header {
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	// background-attachment: fixed;
+}
+
+#about {
+	background-image: url('../img/grain.jpg');
+}
+
+#map-canvas {
+	width: 100%;
+	height: 390px;
+}
+
+.contact-form {
+	.row {
+		margin: 15px 0;
+	}
+}
+
+.img-divider {
+	margin: 30px auto;
+}
+
+.brand-patagonia {
+	display: inline-block;
+	background-image: url('../img/brands.png');
+	background-position: 0 0;
+	width: 178px;
+	height: 56px;
+}
+.brand-north-face {
+	display: inline-block;
+	background-image: url('../img/brands.png');
+	background-position: -221px 0;
+	width: 125px;
+	height: 68px;
+}
+.brand-volkl {
+	display: inline-block;
+	background-image: url('../img/brands.png');
+	background-position: -416px 0;
+	width: 127px;
+	height: 48px;
+}
+.brand-k2 {
+	display: inline-block;
+	background-image: url('../img/brands.png');
+	background-position: -560px 0;
+	width: 87px;
+	height: 69px;
+}
+.brand-nordica {
+	display: inline-block;
+	background-image: url('../img/brands.png');
+	background-position: -679px 0;
+	width: 142px;
+	height: 61px;
+}
+.brand-blizzard {
+	display: inline-block;
+	background-image: url('../img/brands.png');
+	background-position: -846px 0;
+	width: 145px;
+	height: 68px;
+}
