@@ -42,12 +42,12 @@
             </li>
             <li>
               <a href="#about">
-                CONTACT 
+                ABOUT
               </a>
             </li>
             <li>
               <a href="#contact">
-                ABOUT
+                CONTACT 
               </a>
             </li>
           </ul>

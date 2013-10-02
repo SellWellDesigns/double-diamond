@@ -10,7 +10,7 @@
 
 			<div class="row">
 				<div class="col-lg-8 col-md-8">
-					<div id="carousel" class="carousel slide">
+					<div id="carousel" class="hidden-sm hidden-xs carousel slide">
 						<!-- Indicators -->
 						<ol class="carousel-indicators">
 							<li data-target="#carousel" data-slide-to="0" class="active"></li>
@@ -181,7 +181,7 @@
 
 				</div>
 				<div class="col-lg-6 col-md-6">
-					<div id="map-canvas" class="hidden-sm"></div>
+					<div id="map-canvas" class="hidden-sm hidden-xs"></div>
 				</div>
 			</div>
 
