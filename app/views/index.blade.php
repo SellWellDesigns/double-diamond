@@ -83,7 +83,7 @@
 
 			<div class="row">
 				<div class="col-lg-4 col-md-4 text-center">
-					<div class="marketing-image"></div>
+					<div class="marketing-image rentals"></div>
 
 					<h2>RENTALS</h2>
 					<hr />
@@ -98,7 +98,7 @@
 					</p>
 				</div>
 				<div class="col-lg-4 col-md-4 text-center">
-					<div class="marketing-image"></div>
+					<div class="marketing-image equipment"></div>
 
 					<h2>EQUIPMENT</h2>
 					<hr />
@@ -113,7 +113,7 @@
 					</p>
 				</div>
 				<div class="col-lg-4 col-md-4 text-center">
-					<div class="marketing-image"></div>
+					<div class="marketing-image apparel"></div>
 
 					<h2>APPAREL</h2>
 					<hr />

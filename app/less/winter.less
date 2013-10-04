@@ -7,27 +7,8 @@
 @brand5: #f8931d;
 @brand6: #58585a;
 
-@font-family-serif:       "Bree Serif", Georgia, "Times New Roman", Times, serif;
-@font-family-base:        @font-family-serif;
-@headings-font-family:    @font-family-base;
-
-@border-radius-base: 0;
-
-
-@navbar-default-color: #fff;
-
-@btn-default-color: #fff;
-@navbar-default-bg: @brand1;
-@navbar-default-border: @brand1;
-
-@navbar-default-link-color: #fff;
 @navbar-default-link-active-color: @brand5;
 @navbar-default-link-hover-color: @brand5;
-@navbar-default-link-active-bg: @brand1;
-
-@btn-primary-bg: @brand5;
-@btn-default-bg: @brand1;
-
 
 .navbar-nav {
 	li {
@@ -54,11 +35,26 @@ h2 {
 }
 
 .marketing-image {
-	background-image: url('../img/snowflake.png');
-	width: 131px;
-	height: 136px;
+	background-image: url('../img/winter_icons.png');
 	margin: 0 auto;
+
+	&.rentals {
+		background-position: 0 0;
+		width: 109px;
+		height: 148px;
+	}
+	&.equipment {
+		background-position: -186px 0;
+		width: 128px;
+		height: 148px;
+	}
+	&.apparel {
+		background-position: -418px 0;
+		width: 82px;
+		height: 148px;
+	}
 }
+
 
 #hero-header {
 	background-image: url('../img/vail_bg.jpg');
