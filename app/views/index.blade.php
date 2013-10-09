@@ -171,7 +171,11 @@
 							</div>
 
 							<div class="row">
-								<div class="col-lg-12 text-right">
+								<div class="col-lg-8">
+									<i class="phone-icon pull-left"></i>
+									<h4>Call: (970) 476-5500</h4>
+								</div>
+								<div class="col-lg-4 text-right">
 									<input type="submit" value="Send It" class="btn btn-primary" />
 								</div>
 							</div>
