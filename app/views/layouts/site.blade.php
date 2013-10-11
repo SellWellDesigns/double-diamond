@@ -10,6 +10,7 @@
     <title>Double Diamond</title>
 
     <link href="{{ asset('css/' . Input::get('season', 'winter') . '.css') }}" rel="stylesheet">
+    <link href="{{ asset('lib/datepicker/css/datepicker.css') }}" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -47,7 +48,7 @@
             </li>
             <li>
               <a href="#contact">
-                CONTACT 
+                 (970) 476-5500 
               </a>
             </li>
           </ul>
@@ -120,6 +121,7 @@
 
     <script src="{{ asset('js/jquery.js') }}"></script>
     <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('lib/datepicker/js/bootstrap-datepicker.js') }}"></script>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
     <script src="{{ asset('js/actions.js') }}"></script>
   </body>

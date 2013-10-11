@@ -51,15 +51,15 @@
 				</div>
 				<div class="col-lg-4 col-md-4">
 					<h2>
-						RENT<small>GEAR</small>
+						<small>RENT</small>NOW
 					</h2>
 
 					<form>
 						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Start Date" />
+							<input type="text" class="form-control datepicker" placeholder="Start Date" />
 						</div>
 						<div class="form-group">
-							<input type="text" class="form-control" placeholder="End Date" />
+							<input type="text" class="form-control datepicker" placeholder="End Date" />
 						</div>
 						<div class="form-group">
 							<input type="submit" class="pull-right btn btn-default" value="Send It" />
