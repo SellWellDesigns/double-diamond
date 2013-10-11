@@ -37,17 +37,17 @@
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav pull-right">
             <li class="active">
-              <a href="#">
+              <a href="{{ route('shop') }}">
                 SHOP
               </a>
             </li>
             <li>
-              <a href="#about">
+              <a href="{{ route('about') }}">
                 ABOUT
               </a>
             </li>
             <li>
-              <a href="#contact">
+              <a href="{{ route('contact') }}">
                  (970) 476-5500 
               </a>
             </li>
