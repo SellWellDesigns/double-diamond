@@ -10,11 +10,25 @@
 				<div class="col-lg-8">
 					<div class="well">
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis lorem magna. Nulla aliquet nisl at orci mattis, a ullamcorper velit auctor. In hac habitasse platea dictumst. Proin vitae metus pretium orci euismod ullamcorper. Pellentesque ut imperdiet sem, vitae ultricies neque. Curabitur scelerisque, sapien vel adipiscing mattis, leo est feugiat risus, vel consequat dui justo et velit. Fusce vulputate massa vitae varius eleifend. Nam facilisis sem venenatis nibh scelerisque, sed varius sapien dictum. Phasellus adipiscing erat odio, at bibendum erat vulputate in.
+							Double Diamond carries only the highest quality ski and snowboard equipment on the market. We assure that you'll have goggles that won't fog, a backpack to carry all your stuff and all the necessary ski and snowboard equipment to ensure your Vail experience is amazing. 
 						</p>
 
 						<p>
-							Maecenas pellentesque dolor sit amet leo ornare, nec faucibus mi rutrum. Etiam bibendum, ligula vel blandit suscipit, mauris quam posuere arcu, at facilisis leo mauris nec mauris. Vestibulum gravida magna non nisl bibendum, in faucibus dui tincidunt. Pellentesque rutrum neque vestibulum ipsum interdum, a egestas mi eleifend. Sed quis quam lacus. Nullam sagittis scelerisque elit, id accumsan erat rutrum a. Vivamus at risus libero. Etiam euismod eros eros, a bibendum nulla rhoncus eget. Nunc a mauris molestie diam pretium rutrum eget vel leo. 
+							Our Vail shop has expert skiers and boarders that know what equipment you need on the mountain. We carry the following brands of ski and snowboard equipment (logos?): 
+						</p>
+
+						<ul>
+							<li>asd as das d </li>
+							<li>asd as das d </li>
+							<li>asd as das d </li>
+							<li>asd as das d </li>
+							<li>asd as das d </li>
+							<li>asd as das d </li>
+							<li>asd as das d </li>
+						</ul>
+
+						<p>
+							Come by our Vail shop and see our amazing selection of superior ski and snowboard equipment. This is why we ski!
 						</p>
 
 						<img class="img-divider img-responsive" src="{{ asset('img/divider.png') }}" />

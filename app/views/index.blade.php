@@ -89,13 +89,11 @@
 					<hr />
 
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						Double Diamond Ski and Snowboard Shop is the premier destination for ski and snowboard rentals in Vail, CO. Located literally 33 steps from the Vail gondola @ Lionshead, we offer convenience, high-quality rentals, and an expert staff to help you get the right gear to match your needs. Book your rental gear today and allow Double Diamond to make your Vail ski and/or snowboard trip an unforgettable experience! Plus, we are offering 20% off online rentals and package deals for a limited time, so book today!
 					</p>
+
+					<a href="{{ route('rentals') }}" class="btn btn-primary btn-block">Learn More</a>
+					<a href="{{ route('rental_packages') }}" class="btn btn-primary btn-block">Rental Packages</a>
 				</div>
 				<div class="col-lg-4 col-md-4 text-center">
 					<div class="marketing-image equipment"></div>
@@ -104,13 +102,10 @@
 					<hr />
 
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						Double Diamond Ski Shop believes in carrying the highest quality ski and snowboard equipment on the market. With brands like --------------------------------------------, no other shop in Vail has the premier selection that we offer. We are the only ski shop in Vail that carries K2 ski boots, and the Fischer Vacufit boot system that ensures a perfect fit. Ask one of our expert ski shop employees to show you the best ski and snowboard products in Vail!
 					</p>
+
+					<a href="{{ route('equipment') }}" class="btn btn-primary btn-block">Learn More</a>
 				</div>
 				<div class="col-lg-4 col-md-4 text-center">
 					<div class="marketing-image apparel"></div>
@@ -119,13 +114,10 @@
 					<hr />
 
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						As the premier ski and snowboard shop in Vail that carries select, high quality ski apparel, we have everything you need to look good while making turns in the infamous back bowls of Vail. Not only will you look amazing in our high fashion ski and snowboard apparel, but we have everything you need to stay warm and dry. Come in our shop and we'll show you our incredible apparel selection and make sure you're styling on the slopes of Vail. Don't forget about the infamous apres-ski scene in the Vail Village... Double Diamond's vast selection of high-end fashions and accessories ensures you look good on and off the mountain.
 					</p>
+
+					<a href="{{ route('apparel') }}" class="btn btn-primary btn-block">Learn More</a>
 				</div>
 			</div>
 
@@ -144,44 +136,7 @@
 			<div class="row">
 				<div class="col-lg-6 col-md-6">
 					
-					<h2>CONTACT<small>US</small></h2>
-
-					<form class="contact-form" action="" method="">
-						<fieldset>
-
-							<div class="row">
-								<div class="col-lg-6">
-									<input class="form-control" type="text" name="" placeholder="Your Name" />
-								</div>
-								<div class="col-lg-6">
-									<input class="form-control" type="text" name="" placeholder="Your Email" />
-								</div>
-							</div>
-							
-							<div class="row">
-								<div class="col-lg-12">
-									<input class="form-control" type="text" name="" placeholder="Subject" />
-								</div>
-							</div>
-
-							<div class="row">
-								<div class="col-lg-12">
-									<textarea class="form-control" placeholder="Message" rows="8"></textarea>
-								</div>
-							</div>
-
-							<div class="row">
-								<div class="col-lg-8">
-									<i class="phone-icon pull-left"></i>
-									<h4>Call: (970) 476-5500</h4>
-								</div>
-								<div class="col-lg-4 text-right">
-									<input type="submit" value="Send It" class="btn btn-primary" />
-								</div>
-							</div>
-
-						</fieldset>
-					</form>
+					@include('contact._content')
 
 				</div>
 				<div class="col-lg-6 col-md-6">
@@ -200,24 +155,7 @@
 
 	<section id="about" class="section brand3-bg brand6 text-center">
 		<div class="container">
-			<h1>About Double Diamond</h1>
-			
-			<img class="img-divider img-responsive" src="{{ asset('img/divider.png') }}" />
-
-			<p class="lead">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			</p>
-
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p>
+			@include('about._content')
 		</div>
 	</section>
 

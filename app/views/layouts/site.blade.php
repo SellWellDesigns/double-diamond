@@ -29,7 +29,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="{{ route('index') }}">
             <img src="{{ asset('img/header_logo.png') }}" alt="Double Diamond" />
           </a>
         </div>
@@ -37,8 +37,8 @@
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav pull-right">
             <li class="active">
-              <a href="{{ route('shop') }}">
-                SHOP
+              <a href="{{ route('repair') }}">
+                REPAIR
               </a>
             </li>
             <li>
