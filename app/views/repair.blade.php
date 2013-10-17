@@ -10,7 +10,7 @@
 				<div class="col-lg-8">
 					<div class="well">
 						<p>
-							Double Diamond ski and snowboard shop is your most convenient stop to make any last second adjustments to your ride. Our seasoned staff specializes in:
+							Double Diamond ski and snowboard shop is your most convenient stop to make any last second adjustments to your ride. We also have secure lockers to keep your gear safe and accessible.  Our seasoned staff specializes in:
 						</p>
 
 						<ul>
@@ -25,14 +25,20 @@
 						</ul>
 
 						<p>
-							Lose a pole? Break your bindings? Need a quick adjustment to your settings? Just pop in our slope-side Vail store located 33 steps from the Lionshead gondola and we'll get you back on the mountain... This is why we ski!
+							Lose a pole? Break your bindings? Need a quick adjustment to your settings? Just pop in our slope-side Vail store located 33 steps from the Lionshead gondola and we'll get you back on the mountain.
 						</p>
 
 						<img class="img-divider img-responsive" src="{{ asset('img/divider.png') }}" />
+
+						<p>This is why we ski</p>
 					</div>
 				</div>
 				<div class="col-lg-4">
-
+					<h2>
+                        <small>RENT</small>NOW
+                    </h2>
+                    
+                    @include('_rental_form')
 				</div>
 			</div>
 		</div>

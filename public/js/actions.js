@@ -6,7 +6,7 @@ $(function(){
 	 * Google Map
 	 */
 	var map;
-	var location = new google.maps.LatLng(39.644083,-106.386881);
+	var location = new google.maps.LatLng(39.643300,-106.388300);
 	var MY_MAPTYPE_ID = 'custom_style';
 	var color = '#cccccc';
 

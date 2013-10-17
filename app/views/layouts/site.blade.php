@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../assets/ico/favicon.png">
 
-    <title>Double Diamond</title>
+    <title>{{ isset($title) ? $title : 'Double Diamond' }}</title>
 
     <link href="{{ asset('css/' . Input::get('season', 'winter') . '.css') }}" rel="stylesheet">
     <link href="{{ asset('lib/datepicker/css/datepicker.css') }}" rel="stylesheet">
@@ -37,8 +37,8 @@
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav pull-right">
             <li class="active">
-              <a href="{{ route('repair') }}">
-                REPAIR
+              <a href="{{ route('rentals') }}">
+                RENTALS
               </a>
             </li>
             <li>

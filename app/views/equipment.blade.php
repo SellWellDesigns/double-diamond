@@ -35,7 +35,11 @@
 					</div>
 				</div>
 				<div class="col-lg-4">
-
+					<h2>
+                        <small>RENT</small>NOW
+                    </h2>
+                    
+                    @include('_rental_form')
 				</div>
 			</div>
 		</div>

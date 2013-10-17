@@ -1,6 +1,6 @@
 <h1>About Double Diamond</h1>
 
-<h3>This is why we ski</h3>
+<h3 class="brand5">This is why we ski</h3>
 
 <img class="img-divider img-responsive" src="{{ asset('img/divider.png') }}" />
 

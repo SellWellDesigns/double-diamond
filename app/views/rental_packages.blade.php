@@ -19,7 +19,7 @@
 
 						<ul>
 							<li>
-								Demo Skis - Try before you Buy! Our demo fleet is ready to give you the ultimate mountain experience. We carry top brands and the highest quality skis, giving you an opportunity to try the best skis on the market. Availability is limited - contact us to reserve yours today!
+								Demo Skis - Try before you Buy! Our demo fleet is ready to give you the ultimate mountain experience. We carry top brands and the highest quality skis, giving you an opportunity to try the best skis on the market. Availability is limited - <a href="{{ route('contact') }}">contact us</a> to reserve yours today!
 							</li>
 							<li>
 								Performance Skis - Let yourself be carried to the back bowls and best terrain in Vail, all while giving you a ski that enhances your skill level. The sidecut allows for easy carving, and our expert staff will tailor the skis to fit your needs. Ideal for medium to expert skiers who are looking for a high performance ski.
@@ -43,18 +43,24 @@
 
 						<h3>Junior Snowboards</h3>
 						<p>
-							With a smaller sized Burton board made just for the little rippers, this package is designed to make learning fast, easy and fun. Kids love Burton and don't forget to get them a helmet to keep them safe
+							With a smaller sized Burton board made just for the little rippers, this package is designed to make learning fast, easy and fun. Kids love Burton and don't forget to get them a helmet to keep them safe!
 						</p>
 
 						<p>
-							Have questions? Please contact us and one of our expert staff members will help you with a custom tailored rental package to meet all your needs! This is why we ski! 
+							Have questions? Please <a href="{{ route('contact') }}">contact us</a> and one of our expert staff members will help you with a custom tailored rental package to meet all your needs!
 						</p>
 
 						<img class="img-divider img-responsive" src="{{ asset('img/divider.png') }}" />
+
+						<p>This is why we ski</p>
 					</div>
 				</div>
 				<div class="col-lg-4">
-
+					<h2>
+                        <small>RENT</small>NOW
+                    </h2>
+                    
+                    @include('_rental_form')
 				</div>
 			</div>
 		</div>

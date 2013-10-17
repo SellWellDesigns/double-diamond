@@ -28,14 +28,20 @@
 						</ul>
 
 						<p>
-							Make sure to stop by Double Diamond Ski Shop when you arrive in Vail and we'll make sure you leave in style... This is why we ski!
+							Make sure to stop by Double Diamond Ski Shop when you arrive in Vail and we'll make sure you leave in style.
 						</p>
 
 						<img class="img-divider img-responsive" src="{{ asset('img/divider.png') }}" />
+
+						<p>This is why we ski</p>
 					</div>
 				</div>
 				<div class="col-lg-4">
-
+					<h2>
+                        <small>RENT</small>NOW
+                    </h2>
+                    
+					@include('_rental_form')
 				</div>
 			</div>
 		</div>

@@ -9,7 +9,7 @@
 			<div class="row">
 				<div class="col-lg-8">
 					<div class="well">
-						<h2>save 20% today by renting online!</h2>
+						<h2>Save 20% today by renting online today!</h2>
 
 						<a href="{{ route('rental_packages') }}" class="btn btn-primary btn-block">Rental Packages</a>
 
@@ -32,14 +32,20 @@
 						</p>
 
 						<p>
-							Have questions? Please contact us and one of our expert staff members will help you find the ski and snowboard rental that best fits you! This is why we ski!
+							Have questions? Please <a href="{{ route('contact') }}">contact us</a> and one of our expert staff members will help you find the ski and snowboard rental that best fits you!
 						</p>
 
 						<img class="img-divider img-responsive" src="{{ asset('img/divider.png') }}" />
+
+						<p>This is why we ski</p>
 					</div>
 				</div>
 				<div class="col-lg-4">
-
+					<h2>
+                        <small>RENT</small>NOW
+                    </h2>
+                    
+                    @include('_rental_form')
 				</div>
 			</div>
 		</div>

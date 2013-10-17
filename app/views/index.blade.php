@@ -54,17 +54,7 @@
 						<small>RENT</small>NOW
 					</h2>
 
-					<form>
-						<div class="form-group">
-							<input type="text" class="form-control datepicker" placeholder="Start Date" />
-						</div>
-						<div class="form-group">
-							<input type="text" class="form-control datepicker" placeholder="End Date" />
-						</div>
-						<div class="form-group">
-							<input type="submit" class="pull-right btn btn-default" value="Send It" />
-						</div>
-					</form>
+					@include('_rental_form')
 				</div>
 			</div>
 		
@@ -83,9 +73,11 @@
 
 			<div class="row">
 				<div class="col-lg-4 col-md-4 text-center">
-					<div class="marketing-image rentals"></div>
+					<a href="{{ route('rentals') }}">
+						<div class="marketing-image rentals"></div>
+						<h2>RENTALS</h2>
+					</a>
 
-					<h2>RENTALS</h2>
 					<hr />
 
 					<p>
@@ -96,9 +88,11 @@
 					<a href="{{ route('rental_packages') }}" class="btn btn-primary btn-block">Rental Packages</a>
 				</div>
 				<div class="col-lg-4 col-md-4 text-center">
-					<div class="marketing-image equipment"></div>
+					<a href="{{ route('equipment') }}">
+						<div class="marketing-image equipment"></div>
+						<h2>EQUIPMENT</h2>
+					</a>
 
-					<h2>EQUIPMENT</h2>
 					<hr />
 
 					<p>
@@ -106,15 +100,20 @@
 					</p>
 
 					<a href="{{ route('equipment') }}" class="btn btn-primary btn-block">Learn More</a>
+					<a href="{{ route('repair') }}" class="btn btn-primary btn-block">
+						Repair
+					</a>
 				</div>
 				<div class="col-lg-4 col-md-4 text-center">
-					<div class="marketing-image apparel"></div>
+					<a href="{{ route('apparel') }}">
+						<div class="marketing-image apparel"></div>
+						<h2>APPAREL</h2>
+					</a>
 
-					<h2>APPAREL</h2>
 					<hr />
 
 					<p>
-						As the premier ski and snowboard shop in Vail that carries select, high quality ski apparel, we have everything you need to look good while making turns in the infamous back bowls of Vail. Not only will you look amazing in our high fashion ski and snowboard apparel, but we have everything you need to stay warm and dry. Come in our shop and we'll show you our incredible apparel selection and make sure you're styling on the slopes of Vail. Don't forget about the infamous apres-ski scene in the Vail Village... Double Diamond's vast selection of high-end fashions and accessories ensures you look good on and off the mountain.
+						As the premier ski and snowboard shop in Vail that carries select, high quality ski apparel, we have everything you need to look good while making turns in the infamous back bowls of Vail. Come in our shop and we'll show you our incredible apparel selection and make sure you're styling on the slopes of Vail. Don't forget about the infamous apres-ski scene in the Vail Village... Double Diamond's vast selection of high-end apparel and accessories ensures you look good on and off the mountain.
 					</p>
 
 					<a href="{{ route('apparel') }}" class="btn btn-primary btn-block">Learn More</a>
