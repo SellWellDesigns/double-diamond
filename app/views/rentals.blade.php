@@ -11,7 +11,7 @@
 					<div class="well">
 						<h2>Save 20% today by renting online today!</h2>
 
-						<a href="{{ route('rental_packages') }}" class="btn btn-primary btn-block">Rental Packages</a>
+						<a href="{{ route('packages') }}" class="btn btn-primary btn-block">Rental Packages</a>
 
 						<p>
 							Looking for the preeminent ski and snowboard rental shop in Vail? Double Diamond carries the best ski and snowboard equipment for rent in the Vail Valley, and we are literally steps from the gondola. We offer the following ski and snowboard equipment to rent, buy, or demo for the day (logos?):

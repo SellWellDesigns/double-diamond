@@ -22,10 +22,10 @@ Route::get('rentals', array(
 ));
 
 Route::get('packages', array(
-	'as' => 'rental_packages',
+	'as' => 'packages',
 	function()
 	{
-		return View::make('rental_packages', array(
+		return View::make('packages', array(
 			'title' => 'Rental Package Vail | Ski & Snowboard Rental Packages | Kids Rental'
 		));
 	}

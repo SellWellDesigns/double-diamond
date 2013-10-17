@@ -85,7 +85,7 @@
 					</p>
 
 					<a href="{{ route('rentals') }}" class="btn btn-primary btn-block">Learn More</a>
-					<a href="{{ route('rental_packages') }}" class="btn btn-primary btn-block">Rental Packages</a>
+					<a href="{{ route('packages') }}" class="btn btn-primary btn-block">Rental Packages</a>
 				</div>
 				<div class="col-lg-4 col-md-4 text-center">
 					<a href="{{ route('equipment') }}">
