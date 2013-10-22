@@ -84,8 +84,18 @@
 						Double Diamond Ski and Snowboard Shop is the premier destination for ski and snowboard rentals in Vail, CO. Located literally 33 steps from the Vail gondola @ Lionshead, we offer convenience, high-quality rentals, and an expert staff to help you get the right gear to match your needs. Book your rental gear today and allow Double Diamond to make your Vail ski and/or snowboard trip an unforgettable experience! Plus, we are offering 20% off online rentals and package deals for a limited time, so book today!
 					</p>
 
-					<a href="{{ route('rentals') }}" class="btn btn-primary btn-block">Learn More</a>
-					<a href="{{ route('packages') }}" class="btn btn-primary btn-block">Rental Packages</a>
+					<div class="row">
+						<div class="col-lg-6">
+							<a href="{{ route('rentals') }}" class="btn btn-primary btn-block">
+								Learn More
+							</a>
+						</div>
+						<div class="col-lg-6">
+							<a href="{{ route('packages') }}" class="btn btn-info btn-block">
+								Rental Packages
+							</a>
+						</div>
+					</div>
 				</div>
 				<div class="col-lg-4 col-md-4 text-center">
 					<a href="{{ route('equipment') }}">
@@ -99,10 +109,18 @@
 						Double Diamond Ski Shop believes in carrying the highest quality ski and snowboard equipment on the market. With brands like --------------------------------------------, no other shop in Vail has the premier selection that we offer. We are the only ski shop in Vail that carries K2 ski boots, and the Fischer Vacufit boot system that ensures a perfect fit. Ask one of our expert ski shop employees to show you the best ski and snowboard products in Vail!
 					</p>
 
-					<a href="{{ route('equipment') }}" class="btn btn-primary btn-block">Learn More</a>
-					<a href="{{ route('repair') }}" class="btn btn-primary btn-block">
-						Repair
-					</a>
+					<div class="row">
+						<div class="col-lg-6">
+							<a href="{{ route('equipment') }}" class="btn btn-primary btn-block">
+								Learn More
+							</a>
+						</div>
+						<div class="col-lg-6">
+							<a href="{{ route('repair') }}" class="btn btn-info btn-block">
+								Repair
+							</a>
+						</div>
+					</div>
 				</div>
 				<div class="col-lg-4 col-md-4 text-center">
 					<a href="{{ route('apparel') }}">
