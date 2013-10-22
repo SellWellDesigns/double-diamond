@@ -21,19 +21,19 @@
 						<!-- Wrapper for slides -->
 						<div class="carousel-inner">
 							<div class="item active">
-								<img src="http://placehold.it/800x400" alt="...">
+								<img src="http://placehold.it/800x530" alt="...">
 								<div class="carousel-caption">
 									some caption
 								</div>
 							</div>
 							<div class="item">
-								<img src="http://placehold.it/800x400" alt="...">
+								<img src="http://placehold.it/800x530" alt="...">
 								<div class="carousel-caption">
 									some caption
 								</div>
 							</div>
 							<div class="item">
-								<img src="http://placehold.it/800x400" alt="...">
+								<img src="http://placehold.it/800x530" alt="...">
 								<div class="carousel-caption">
 									some caption
 								</div>

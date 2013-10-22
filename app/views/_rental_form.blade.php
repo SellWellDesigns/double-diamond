@@ -9,3 +9,6 @@
         <input type="submit" class="pull-right btn btn-default" value="Send It" />
     </div>
 </form>
+
+<img class="img-responsive" src="{{ asset('img/discount.png') }}" />
+<img class="img-responsive" src="{{ asset('img/steps_away.png') }}" />
