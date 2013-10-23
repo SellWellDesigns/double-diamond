@@ -45,4 +45,4 @@
 
 <img class="img-divider img-responsive" src="{{ asset('img/divider.png') }}" />
 
-<p>This is why we ski</p>
+<h1 class="text-center">This is why we ski</h1>
