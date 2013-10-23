@@ -21,19 +21,19 @@
 						<!-- Wrapper for slides -->
 						<div class="carousel-inner">
 							<div class="item active">
-								<img src="http://placehold.it/800x530" alt="...">
+								<img src="http://placehold.it/800x600" alt="...">
 								<div class="carousel-caption">
 									some caption
 								</div>
 							</div>
 							<div class="item">
-								<img src="http://placehold.it/800x530" alt="...">
+								<img src="http://placehold.it/800x600" alt="...">
 								<div class="carousel-caption">
 									some caption
 								</div>
 							</div>
 							<div class="item">
-								<img src="http://placehold.it/800x530" alt="...">
+								<img src="http://placehold.it/800x600" alt="...">
 								<div class="carousel-caption">
 									some caption
 								</div>
@@ -49,12 +49,11 @@
 						</a>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-4">
-					<h2>
-						<small>RENT</small>NOW
-					</h2>
-
-					@include('_rental_form')
+				<div class="col-lg-4 col-md-4" id="sidebarRentalForm">
+					<img src="{{ asset('img/rent_online.png') }}" class="img-responsive" />
+                    @include('_rental_form')
+                    <hr />
+                    <img src="{{ asset('img/gondola.png') }}" class="img-responsive" />
 				</div>
 			</div>
 		
@@ -153,11 +152,12 @@
 			<div class="row">
 				<div class="col-lg-6 col-md-6">
 					
-					@include('contact._content')
+					@include('contact')
 
 				</div>
-				<div class="col-lg-6 col-md-6">
+				<div id="map-wrapper" class="col-lg-6 col-md-6">
 					<div id="map-canvas" class="hidden-sm hidden-xs"></div>
+					<img src="{{ asset('img/gondola.png') }}" />
 				</div>
 			</div>
 
@@ -172,7 +172,7 @@
 
 	<section id="about" class="section brand3-bg brand6 text-center">
 		<div class="container">
-			@include('about._content')
+			@include('about')
 		</div>
 	</section>
 
