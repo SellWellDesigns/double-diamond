@@ -16,27 +16,62 @@
 							<li data-target="#carousel" data-slide-to="0" class="active"></li>
 							<li data-target="#carousel" data-slide-to="1"></li>
 							<li data-target="#carousel" data-slide-to="2"></li>
+							<li data-target="#carousel" data-slide-to="3"></li>
+							<li data-target="#carousel" data-slide-to="4"></li>
+							<li data-target="#carousel" data-slide-to="5"></li>
+							<li data-target="#carousel" data-slide-to="6"></li>
+							<li data-target="#carousel" data-slide-to="7"></li>
 						</ol>
 
 						<!-- Wrapper for slides -->
 						<div class="carousel-inner">
+							<div class="item">
+								<img src="{{ asset('img/slideshow6.jpg') }}">
+								{{--<div class="carousel-caption">
+									some caption
+								</div>--}}
+							</div>
 							<div class="item active">
-								<img src="http://placehold.it/800x600" alt="...">
-								<div class="carousel-caption">
+								<img src="{{ asset('img/slideshow1.jpg') }}">
+								{{--<div class="carousel-caption">
 									some caption
-								</div>
+								</div>--}}
 							</div>
 							<div class="item">
-								<img src="http://placehold.it/800x600" alt="...">
-								<div class="carousel-caption">
+								<img src="{{ asset('img/slideshow2.jpg') }}">
+								{{--<div class="carousel-caption">
 									some caption
-								</div>
+								</div>--}}
 							</div>
 							<div class="item">
-								<img src="http://placehold.it/800x600" alt="...">
-								<div class="carousel-caption">
+								<img src="{{ asset('img/slideshow3.jpg') }}">
+								{{--<div class="carousel-caption">
 									some caption
-								</div>
+								</div>--}}
+							</div>
+							<div class="item">
+								<img src="{{ asset('img/slideshow4.jpg') }}">
+								{{--<div class="carousel-caption">
+									some caption
+								</div>--}}
+							</div>
+							<div class="item">
+								<img src="{{ asset('img/slideshow5.jpg') }}">
+								{{--<div class="carousel-caption">
+									some caption
+								</div>--}}
+							</div>
+							<div class="item">
+								<img src="{{ asset('img/slideshow7.jpg') }}">
+								{{--<div class="carousel-caption">
+									some caption
+								</div>--}}
+							</div>
+							<div class="item">
+								<img src="{{ asset('img/slideshow8.jpg') }}">
+								{{--<div class="carousel-caption">
+									some caption
+								</div>--}}
 							</div>
 						</div>
 
