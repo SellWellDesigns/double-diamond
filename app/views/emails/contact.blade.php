@@ -1,6 +1,9 @@
-Someone emailed you from your contact form:
+<p>
+    <strong>{{ $name }}</strong> emailed you from the <i>doublediamondvail.com</i> contact form.
+</p>
 
-Name: {{ $name }}
-Email: {{ $email }}
+<p>His email address is: <a href="mailto:{{$email}}">{{ $email }}</a>.</p>
 
-Message: {{ $msg }}
+<p>------------------------------------------</p>
+
+<p>{{ $msg }}</p>
