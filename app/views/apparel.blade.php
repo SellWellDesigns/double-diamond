@@ -10,15 +10,22 @@
 	We carry the following premium ski and snowboard clothing brands:
 </p>
 
-<ul>
-	<li>Volkl</li>
-	<li>Nordica</li>
-	<li>K2</li>
-	<li>Rossignal</li>
-	<li>Blizzard</li>
-	<li>Armada</li>
-	<li>Burton</li>
-</ul>
+
+<p class="text-center">
+    <img class="brand-logo-sm" src="{{ asset('img/BognerFireIce.jpg') }}" />
+    <img class="brand-logo-sm" src="{{ asset('img/dakine-logo-1-.jpg') }}" />
+    <img class="brand-logo-sm" src="{{ asset('img/goldwin.jpeg') }}" />
+    <img class="brand-logo-sm" src="{{ asset('img/mammut.jpeg') }}" />
+    <img class="brand-logo-sm" src="{{ asset('img/marmot-logo-crisp-version1.jpg') }}" />
+    <img class="brand-logo-sm" src="{{ asset('img/spyder.jpeg') }}" />
+    <img class="brand-logo-sm" src="{{ asset('img/mons_royale_logo.jpeg') }}" />
+    <img class="brand-logo-sm" src="{{ asset('img/strafe-logo-black.gif') }}" />
+    <img class="brand-logo-sm" src="{{ asset('img/powderhorn-logo.jpg') }}" />
+    <img class="brand-logo-sm" src="{{ asset('img/neve.png') }}" />
+    <img class="brand-logo-sm" src="{{ asset('img/millet-logo.gif') }}" />
+    <img class="brand-logo-sm" src="{{ asset('img/rossignol.jpeg') }}" />
+</p>
+
 
 <p>
 	Make sure to stop by Double Diamond Ski Shop when you arrive in Vail and we'll make sure you leave in style.

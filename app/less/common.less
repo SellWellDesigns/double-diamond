@@ -105,6 +105,11 @@ body {
 	.box-shadow(1px 3px 7px fadeout(#000, 40%));
 }
 
+.carousel-caption {
+	background: fadeout(#fff, 30%);
+	color: #000;
+}
+
 .carousel-control {
 	.icon-next, .icon-prev {
 		font-size: 50px;
@@ -207,4 +212,22 @@ body {
 
 .brand-logo {
 	height: 74px;
+}
+
+.brand-logo-sm {
+	height: 45px;
+}
+
+
+
+
+
+@media (max-width: @screen-md) {
+	#map-wrapper {
+		text-align: center;
+	
+		img {
+			position: static;
+		}
+	}
 }

@@ -17,6 +17,13 @@
 	<li>And any adjustments or upgrades you need!</li>
 </ul>
 
+<p>
+	<img class="brand-logo-sm" src="{{ asset('img/apex.jpeg') }}" />
+    <img class="brand-logo-sm" src="{{ asset('img/fischer.jpeg') }}" />
+</p>
+
+<p>&nbsp;</p>
+
 <p>We also do Custom Boot Fitting</p>
 <ul>
 	<li>Shell Liner Modifications</li>
