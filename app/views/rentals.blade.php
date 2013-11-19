@@ -6,18 +6,16 @@
 <a href="{{ route('packages') }}" class="btn btn-primary btn-block">Rental Packages</a>
 
 <p>
-	Looking for the preeminent ski and snowboard rental shop in Vail? Double Diamond carries the best ski and snowboard equipment for rent in the Vail Valley, and we are literally steps from the gondola. We offer the following ski and snowboard equipment to rent, buy, or demo for the day (logos?):
+	Looking for the preeminent ski and snowboard rental shop in Vail? Double Diamond carries the best ski and snowboard equipment for rent in the Vail Valley, and we are literally steps from the gondola. We offer the following ski and snowboard equipment to rent, buy, or demo for the day:
 </p>
 
-<ul>
-	<li>Volkl</li>
-	<li>Nordica</li>
-	<li>K2</li>
-	<li>Rossignal</li>
-	<li>Blizzard</li>
-	<li>Armada</li>
-	<li>Burton</li>
-</ul>
+<p class="text-center">
+	<img class="brand-logo" src="{{ asset('img/K2_-_Logo.jpg') }}" />
+	<img class="brand-logo" src="{{ asset('img/rossignol.jpeg') }}" />
+	<img class="brand-logo" src="{{ asset('img/Volkl-logo.gif') }}" />
+	<img class="brand-logo" src="{{ asset('img/fischer.jpeg') }}" />
+	<img class="brand-logo" src="{{ asset('img/burton.JPG') }}" />
+</p>
 
 <p>
 	Double Diamond also offers ski boot rental and snowboard boot rental, and will have your rentals waiting for you 33 steps from Vail mountain.
@@ -29,4 +27,4 @@
 
 <img class="img-divider img-responsive" src="{{ asset('img/divider.png') }}" />
 
-<p>This is why we ski</p>
+<h2 class="text-center">This is why we ski</h2>

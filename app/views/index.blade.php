@@ -10,7 +10,7 @@
 
 			<div class="row">
 				<div class="col-lg-8 col-md-8">
-					<div id="carousel" class="hidden-sm hidden-xs carousel slide">
+					<div id="carousel" class="hidden-sm hidden-xs carousel slide" data-ride="carousel">
 						<!-- Indicators -->
 						<ol class="carousel-indicators">
 							<li data-target="#carousel" data-slide-to="0" class="active"></li>
@@ -21,57 +21,40 @@
 							<li data-target="#carousel" data-slide-to="5"></li>
 							<li data-target="#carousel" data-slide-to="6"></li>
 							<li data-target="#carousel" data-slide-to="7"></li>
+							<li data-target="#carousel" data-slide-to="8"></li>
 						</ol>
 
 						<!-- Wrapper for slides -->
 						<div class="carousel-inner">
+							<div class="item active">
+								<img src="{{ asset('img/vonn.jpg') }}">
+								<div class="carousel-caption">
+									Come meet Olympic Gold medalist Lindsey Vonn at Double Diamond on 11/20 from 4:00-6:00pm
+								</div>
+							</div>
 							<div class="item">
 								<img src="{{ asset('img/slideshow6.jpg') }}">
-								{{--<div class="carousel-caption">
-									some caption
-								</div>--}}
 							</div>
-							<div class="item active">
+							<div class="item">
 								<img src="{{ asset('img/slideshow1.jpg') }}">
-								{{--<div class="carousel-caption">
-									some caption
-								</div>--}}
 							</div>
 							<div class="item">
 								<img src="{{ asset('img/slideshow2.jpg') }}">
-								{{--<div class="carousel-caption">
-									some caption
-								</div>--}}
 							</div>
 							<div class="item">
 								<img src="{{ asset('img/slideshow3.jpg') }}">
-								{{--<div class="carousel-caption">
-									some caption
-								</div>--}}
 							</div>
 							<div class="item">
 								<img src="{{ asset('img/slideshow4.jpg') }}">
-								{{--<div class="carousel-caption">
-									some caption
-								</div>--}}
 							</div>
 							<div class="item">
 								<img src="{{ asset('img/slideshow5.jpg') }}">
-								{{--<div class="carousel-caption">
-									some caption
-								</div>--}}
 							</div>
 							<div class="item">
 								<img src="{{ asset('img/slideshow7.jpg') }}">
-								{{--<div class="carousel-caption">
-									some caption
-								</div>--}}
 							</div>
 							<div class="item">
 								<img src="{{ asset('img/slideshow8.jpg') }}">
-								{{--<div class="carousel-caption">
-									some caption
-								</div>--}}
 							</div>
 						</div>
 
@@ -140,7 +123,9 @@
 					<hr />
 
 					<p>
-						Double Diamond Ski Shop believes in carrying the highest quality ski and snowboard equipment on the market. With brands like --------------------------------------------, no other shop in Vail has the premier selection that we offer. We are the only ski shop in Vail that carries K2 ski boots, and the Fischer Vacufit boot system that ensures a perfect fit. Ask one of our expert ski shop employees to show you the best ski and snowboard products in Vail!
+						Double Diamond Ski Shop believes in carrying the highest quality ski and snowboard equipment on the market. With brands like K2, Rossignol, Vokl, Mammut, Spyder and Fischer.  No other shop in Vail has the premier selection that we offer. We are the only ski shop in Vail that carries K2 ski boots, and the Fischer Vacufit boot system that ensures a perfect fit. Ask one of our expert ski shop employees to show you the best ski and snowboard products in Vail!
+						<br />
+						<br />
 					</p>
 
 					<div class="row">
@@ -151,7 +136,7 @@
 						</div>
 						<div class="col-lg-6">
 							<a href="{{ route('repair') }}" class="btn btn-info btn-block">
-								Repair
+								Services
 							</a>
 						</div>
 					</div>

@@ -7,7 +7,7 @@
 </p>
 
 <p>
-	Choose from the following ski rental packages (Pics?/Logos?):
+	Choose from the following ski rental packages:
 </p>
 
 <ul>
@@ -26,7 +26,7 @@
 </ul>
 
 <p>
-	Double Diamond also offers Burton snowboard rental packages (Pics/logos?):
+	Double Diamond also offers Burton snowboard rental packages:
 </p>
 
 <h3>Adult Snowboards</h3>

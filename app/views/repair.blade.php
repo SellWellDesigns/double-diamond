@@ -1,5 +1,5 @@
 <header>
-	<h1>Repair</h1>
+	<h1>Services</h1>
 </header>
 
 <p>
@@ -17,10 +17,19 @@
 	<li>And any adjustments or upgrades you need!</li>
 </ul>
 
+<p>We also do Custom Boot Fitting</p>
+<ul>
+	<li>Shell Liner Modifications</li>
+	<li>Custom Insoles</li>
+	<li>Stance Balance</li>
+	<li>Lifter Plate Installation</li>
+	<li>Fischer Vacuum Fit Technology</li>
+</ul>
+
 <p>
 	Lose a pole? Break your bindings? Need a quick adjustment to your settings? Just pop in our slope-side Vail store located 33 steps from the Lionshead gondola and we'll get you back on the mountain.
 </p>
 
 <img class="img-divider img-responsive" src="{{ asset('img/divider.png') }}" />
 
-<p>This is why we ski</p>
+<h1 class="text-center">This is why we ski</h1>

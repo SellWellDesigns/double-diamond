@@ -2,27 +2,27 @@
     <h2>CONTACT<small>US</small></h2>
 </header>
 
-<form class="contact-form" action="" method="">
+<form class="contact-form" action="/contact" method="post">
     <fieldset>
 
         <div class="row">
             <div class="col-lg-6">
-                <input class="form-control" type="text" name="" placeholder="Your Name" />
+                <input class="form-control" type="text" name="name" placeholder="Your Name" />
             </div>
             <div class="col-lg-6">
-                <input class="form-control" type="text" name="" placeholder="Your Email" />
+                <input class="form-control" type="text" name="email" placeholder="Your Email" />
             </div>
         </div>
         
         <div class="row">
             <div class="col-lg-12">
-                <input class="form-control" type="text" name="" placeholder="Subject" />
+                <input class="form-control" type="text" name="subject" placeholder="Subject" />
             </div>
         </div>
 
         <div class="row">
             <div class="col-lg-12">
-                <textarea class="form-control" placeholder="Message" rows="8"></textarea>
+                <textarea name="message" class="form-control" placeholder="Message" rows="8"></textarea>
             </div>
         </div>
 

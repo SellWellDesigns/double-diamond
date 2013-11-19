@@ -69,6 +69,23 @@ Route::get('contact', array(
 	}
 ));
 
+Route::post('contact', function(){
+	$data            = array();
+	$data['name']    = Input::get('name');
+	$data['email']   = Input::get('email');
+	$data['msg'] = Input::get('message');
+	$subject         = Input::get('subject');
+
+	Mail::send('emails.contact', $data, function($message) use($subject)
+	{
+		$message->to('conar@sellwelldesigns.com')
+			->cc('davin@sellwelldesigns.com')
+			->subject($subject);
+	});
+
+	return Redirect::route('index');
+});
+
 Route::get('about', array(
 	'as' => 'about',
 	function()
