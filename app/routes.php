@@ -78,8 +78,7 @@ Route::post('contact', function(){
 
 	Mail::send('emails.contact', $data, function($message) use($subject)
 	{
-		$message->to('conar@sellwelldesigns.com', 'Conar Welsh')
-			->cc('davin@sellwelldesigns.com', 'Davin Burke')
+		$message->to('rentals@danaxsports.com', 'Double Diamond Vail')
 			->subject($subject);
 	});
 
