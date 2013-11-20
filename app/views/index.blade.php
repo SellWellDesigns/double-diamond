@@ -27,7 +27,7 @@
 						<!-- Wrapper for slides -->
 						<div class="carousel-inner">
 							<div class="item active">
-								<img src="{{ asset('img/vonn.jpg') }}">
+								<img src="{{ asset('img/vonn-photo.jpg') }}">
 								<div class="carousel-caption">
 									Come meet Olympic Gold medalist Lindsey Vonn at Double Diamond on 11/20 from 4:00-6:00pm
 								</div>
