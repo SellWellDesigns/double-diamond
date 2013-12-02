@@ -26,34 +26,5 @@
     <p class="pull-left">
       &copy; {{ date('Y') }} Double Diamond Vail
     </p>
-
-    {{--<ul id="social-links" class="pull-right list-inline">
-      <li>
-        <a href="#">
-          <i class="icon-facebook"></i>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <i class="icon-twitter"></i>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <i class="icon-linkedin"></i>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <i class="icon-pinterest"></i>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <i class="icon-youtube"></i>
-        </a>
-      </li>
-    </ul>--}}
-
   </div>
 </footer>
