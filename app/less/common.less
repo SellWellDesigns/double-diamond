@@ -44,6 +44,10 @@
 body {
 	background: @brand1;
 	padding-top: @navbar-height;
+
+	&.old-ie {
+		background: white;
+	}
 }
 
 .navbar-brand {
@@ -103,6 +107,12 @@ body {
 
 .carousel {
 	.box-shadow(1px 3px 7px fadeout(#000, 40%));
+}
+
+.old-ie {
+	.carousel img {
+		width: 100%;
+	}
 }
 
 .carousel-caption {

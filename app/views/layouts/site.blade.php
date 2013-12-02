@@ -18,7 +18,12 @@
       <script src="../../assets/js/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <!--[if lt IE 9]>
+    <body class="old-ie">
+  <![endif]-->
+  <!--[if gt IE 9]>
+    <body>
+  <![endif]-->
 
     <div class="navbar navbar-default navbar-fixed-top">
       <div class="container">
