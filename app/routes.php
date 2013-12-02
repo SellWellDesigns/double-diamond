@@ -5,7 +5,8 @@ Route::get('/', array(
 	function()
 	{
 		return View::make('index', array(
-			'title' => 'Ski Shop Vail, Colorado | Snowboard Shops | Double Diamond Ski Shop'
+			'title'       => 'Ski Shop Vail, CO | Ski Rental & Repair Shops | Double Diamond Vail',
+			'description' => 'Double Diamond is a ski shop located in Vail, Colorado. Our ski rental and repair shop offers skis for rent as well as ski repairs and tune-ups in Vail.'
 		));
 	}
 ));
@@ -16,7 +17,8 @@ Route::get('rentals', array(
 	function()
 	{
 		return View::make('layouts.secondary')->nest('content', 'rentals', array(
-			'title' => 'Ski Rental Vail | Ski & Snowboard Equipment, Gear & Boot Rentals'
+			'title' => 'Ski Rentals Vail | Sport Ski & Boot Rental| Kids Ski Rentals',
+			'description' => 'Double Diamond offers ski rentals in Vail. We provide sport, demo and performance ski rentals as well as boot rentals for kids and adults in Vail, CO.'
 		));
 	}
 ));
@@ -26,7 +28,8 @@ Route::get('packages', array(
 	function()
 	{
 		return View::make('layouts.secondary')->nest('content', 'packages', array(
-			'title' => 'Rental Package Vail | Ski & Snowboard Rental Packages | Kids Rental'
+			'title' => 'Ski Rental Packages Vail | Ski Rental Deals & Package Information',
+			'description' => 'Double Diamond offers ski rental packages in Vail, CO. Our rental shop provides a variety of ski rental deals as well as ski rental package information.'
 		));
 	}
 ));
@@ -36,7 +39,8 @@ Route::get('equipment', array(
 	function()
 	{
 		return View::make('layouts.secondary')->nest('content', 'equipment', array(
-			'title' => 'Ski Equipment Vail, Colorado | Snowboard Equipment & Hardgoods'
+			'title' => 'Ski Gear Vail | Ski Equipment & Gear Rental | Double Diamond Vail',
+			'description' => 'Double Diamond carries ski gear in Vail. At our rental store we provide ski equipment and gear including ski boots, bindings and accessories for rent.'
 		));
 	}
 ));
@@ -46,7 +50,8 @@ Route::get('apparel', array(
 	function()
 	{
 		return View::make('layouts.secondary')->nest('content', 'apparel', array(
-			'title' => 'Ski Clothing Vail | Snowboard Clothing | Ski Apparel & Accessories'
+			'title' => 'Ski Clothes Vail | Ski Apparel | Snowboard Clothing & Accessories',
+			'description' => 'Double Diamond offers ski clothes in Vail, CO. Shop our wide selection of premium, brand name ski and snowboard apparel, clothing and accessories in Vail.'
 		));
 	}
 ));
