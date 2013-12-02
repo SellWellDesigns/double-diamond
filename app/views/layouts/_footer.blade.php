@@ -1,4 +1,4 @@
-<footer class="section brand1-bg white">
+<footer id="footer" class="section brand1-bg white">
   <div class="container">
     <div class="row">
       <div class="col-lg-2 col-md-2 text-center">
