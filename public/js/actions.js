@@ -1,6 +1,23 @@
 $(function(){
 
-	$('.datepicker').datepicker();
+	var
+		dpStart = $('.datepicker-start'),
+		dpEnd   = $('.datepicker-end')
+	;
+
+	dpStart.datepicker({
+	    format: 'mm/dd/yyyy',
+	    startDate: '+2d'
+	});
+
+	dpStart.on('changeDate', function(){
+		dpEnd.datepicker('setStartDate', dpStart.datepicker('getDate'));
+	});
+
+	dpEnd.datepicker({
+	    format: 'mm/dd/yyyy',
+	    startDate: '+2d'
+	});
 
 	$('[placeholder]')
 		.focus(function(){
