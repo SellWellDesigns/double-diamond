@@ -9,7 +9,8 @@
 
     <title>{{ isset($title) ? $title : 'Double Diamond' }}</title>
 
-    <link href="{{ asset('css/' . Input::get('season', 'winter') . '.css') }}" rel="stylesheet">
+    <!-- <link href="{{ asset('css/' . Input::get('season', 'winter') . '.css') }}" rel="stylesheet"> -->
+    <link href="{{ asset('css/' . Input::get('season', 'summer') . '.css') }}" rel="stylesheet">
     <link href="{{ asset('lib/datepicker/css/datepicker.css') }}" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
